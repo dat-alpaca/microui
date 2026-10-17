@@ -5,7 +5,7 @@ microui_includes = include_directories('src/')
 microui = static_library(
     'microui',
     sources: files(
-        'src/microui.h'
+        'src/microui.h',
         'src/microui.c'
     ),
     include_directories: microui_includes
